@@ -1,14 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import {MyFunction} from './utils';
+// React Homework Project
+// Allen P.
+// 04/17/2022
 
-let appKey = "";
+import './App.css';
+import { movieData } from "./components/movieData";
+import { MovieDetails } from "./components/MovieDetails";
+
+// let appKey = "";
 
 function App() {
   return (
-    <div>
-      Hello BitWise World!
-     
+    <div className="App">
+      {/* <MovieDetails(movieData) /> */}
+      {/* <MovieDetails({movieData}) /> */}
+      {/* <MovieDetails props=movieData /> */}
+      <MovieDetails props={movieData} />
     </div>
   );
 }

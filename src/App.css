@@ -1,17 +1,15 @@
+/* React Homework Project
+Allen P.
+04/17/2022
+*/
+
+/* From original file - Is this used? */
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* From original file - Is this used? */
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +22,94 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* MovieDetails Formatting */
+
+.MovieDetails-Box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MovieDetails-Poster {
+  padding: 10px;
+}
+
+.MovieDetails-Data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.MovieDetails-Row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25vw;
+  padding: 0px;
+}
+
+.MovieDetails-Row2 {
+  display: flex;
+  flex-direction: row;
+  width: 25vw;
+  padding: 0px;
+}
+
+.MovieDetails-Group {
+  margin: 10px 0px 5px 0px;
+  width: 25vw;
+  text-align: left;
+}
+
+.MovieDetails-Title {
+  margin: 0px 10px 0px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.MovieDetails-Rating {
+  margin: 0px 0px 0px 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: blue;
+  text-align: left;
+}
+
+.MovieDetails-Rated {
+  margin: 10px 5px 0px 0px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: lightgray;
+}
+
+.MovieDetails-Runtime {
+  margin: 10px 0px 0px 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: lightgray;
+}
+
+.MovieDetails-Genre {
+  margin: 10px 0px 0px 0px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: lightgray;
+}
+
+.MovieDetails-Heading {
+  margin: 3px 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.MovieDetails-Text {
+  margin: 3px 0px;
+  font-size: 16px;
 }

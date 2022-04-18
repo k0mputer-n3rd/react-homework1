@@ -1,3 +1,7 @@
+// React Homework Project
+// Allen P.
+// 04/17/2022
+
 // utils.js
 
 // Function to respond to information typed in input box
