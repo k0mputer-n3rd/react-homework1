@@ -1,34 +1,20 @@
 // React Homework Project
 // Allen P.
-// 04/17/2022
+// 04/23/2022
 
-import './App.css';
-import { movieData } from "./components/movieData";
-import { MovieDetails } from "./components/MovieDetails";
+// App.js
+// ======
 
-// let appKey = "";
+import React from "react";
+import "./App.css";
+import MovieForm from "./components/MovieForm";
 
 function App() {
   return (
     <div className="App">
-      {/* <MovieDetails(movieData) /> */}
-      {/* <MovieDetails({movieData}) /> */}
-      {/* <MovieDetails props=movieData /> */}
-      <MovieDetails props={movieData} />
+      <MovieForm />
     </div>
   );
 }
 
 export default App;
-
-
-// const MyFunction = () => {
-//   let something = prompt("Enter Test Data");
-//   console.log(`The message is: ${something}`);
-//   return(
-//     <div>
-//         <h1>This is a test of {something}</h1>
-//     </div>
-//   )
-// }
-

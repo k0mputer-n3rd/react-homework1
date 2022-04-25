@@ -1,9 +1,9 @@
 /* React Homework Project
 Allen P.
-04/17/2022
+04/24/2022
 */
 
-/* From original file - Is this used? */
+/* From original file */
 
 .App {
   text-align: center;
@@ -20,6 +20,58 @@ Allen P.
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+/* MovieList Formatting */
+
+.MovieList-Box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+/* MovieCard Formatting */
+
+.MovieCard-Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1vw;
+  width: 17vw;
+  background-color: blanchedalmond;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 0px;
+}
+
+.MovieCard-Poster {
+  padding: 0px;
+}
+
+.MovieCard-Image {
+  width: 17vw;
+}
+
+.MovieCard-Title {
+  margin: 5px 5x 5px 5px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.MovieCard-Type {
+  margin: 10px 10px 10px 10px;
+  font-size: 12px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: lightgray;
 }
 
 /* MovieDetails Formatting */

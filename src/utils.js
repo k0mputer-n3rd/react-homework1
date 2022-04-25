@@ -4,6 +4,9 @@
 
 // utils.js
 
+// Use key from REACT_APP_OMDB_API_KEY in .env.local
+const API_KEY = process.env.REACT_APP_OMDB_API_KEY;
+
 // Function to respond to information typed in input box
 // export const myFunction = () => {
 //   let something = prompt("Enter Test Data");
